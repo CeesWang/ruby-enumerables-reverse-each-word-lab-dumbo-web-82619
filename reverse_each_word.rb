@@ -4,5 +4,5 @@ answer = ""
   array.collect do  |word| 
     answer << word.reverse << " "  
   end
-answer.trim
+array.join(" ")
 end
