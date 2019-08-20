@@ -1,4 +1,8 @@
 def reverse_each_word(sentence)
 array = sentence.split(" ")
-array.collect { |word| word.reverse }  
+answer = ""
+  array.collect do  |word| 
+    answer << word.reverse   
+  end
+answer
 end
